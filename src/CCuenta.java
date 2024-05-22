@@ -13,7 +13,7 @@ public class CCuenta {
         System.out.println("Saldo Incial: " + miCuenta.dSaldo + " euros");
         miCuenta.ingresar(100);
         System.out.println("Saldo tras ingreso: " + miCuenta.dSaldo + " euros");
-        miCuenta.ingresar(2002);
+        miCuenta.ingresar(2000);
         System.out.println("Saldo tras ingreso: " + miCuenta.dSaldo + " euros");
 
         miCuenta.ingresar(300);
@@ -22,7 +22,7 @@ public class CCuenta {
         System.out.println("Saldo tras retirada: " + miCuenta.dSaldo + " euros");
     }
 
-    /* Metodo para ingresar cantidades en la cuenta. Modifica el saldo. */
+    /* Modificado para el primer commit 2 */
     public int ingresar(double cantidad) {
         int iCodErr;
 
