@@ -17,7 +17,7 @@ public class CCuenta {
         cuenta1.ingresar(2000);
         System.out.println("Saldo tras ingreso: " + cuenta1.dSaldo + " euros");
 
-        cuenta1.ingresar(300);
+        cuenta1.ingresar(3000);
         System.out.println("Saldo tras ingreso: " + cuenta1.dSaldo + " euros");
         cuenta1.retirar(50);
         System.out.println("Saldo tras retirada: " + cuenta1.dSaldo + " euros");
