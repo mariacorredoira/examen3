@@ -6,21 +6,21 @@ public class CCuenta {
 
     public static void main(String[] args) {
 
-        CCuenta miCuenta = new CCuenta();
+        CCuenta cuenta1 = new CCuenta();
 
-        System.out.println("Saldo Incial: " + miCuenta.dSaldo + " euros");
+        System.out.println("Saldo Incial: " + cuenta1.dSaldo + " euros");
 
-        miCuenta.ingresar(-100);
-        System.out.println("Saldo Incial: " + miCuenta.dSaldo + " euros");
-        miCuenta.ingresar(100);
-        System.out.println("Saldo tras ingreso: " + miCuenta.dSaldo + " euros");
-        miCuenta.ingresar(2000);
-        System.out.println("Saldo tras ingreso: " + miCuenta.dSaldo + " euros");
+        cuenta1.ingresar(-100);
+        System.out.println("Saldo Incial: " + cuenta1.dSaldo + " euros");
+        cuenta1.ingresar(100);
+        System.out.println("Saldo tras ingreso: " + cuenta1.dSaldo + " euros");
+        cuenta1.ingresar(2000);
+        System.out.println("Saldo tras ingreso: " + cuenta1.dSaldo + " euros");
 
-        miCuenta.ingresar(300);
-        System.out.println("Saldo tras ingreso: " + miCuenta.dSaldo + " euros");
-        miCuenta.retirar(50);
-        System.out.println("Saldo tras retirada: " + miCuenta.dSaldo + " euros");
+        cuenta1.ingresar(300);
+        System.out.println("Saldo tras ingreso: " + cuenta1.dSaldo + " euros");
+        cuenta1.retirar(50);
+        System.out.println("Saldo tras retirada: " + cuenta1.dSaldo + " euros");
     }
 
     /* Modificado para el primer commit */
